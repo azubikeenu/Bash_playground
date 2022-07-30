@@ -1,0 +1,16 @@
+#!/bin/bash
+# Author : Enu Azubike
+# Date created : 30/07/22
+# Date modified : 30/07/22
+
+# Description:
+# Create a file and compress it
+
+# Usage
+# backup_script
+
+# tar -cvf [name-of-compressed-new-file] [name-of-file-to-compress]
+tar -cvf ~/desktop/bash/bash_course/my_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar backup_script
+echo "Hello There"
+
+exit 0

@@ -1,0 +1,16 @@
+#!/bin/bash
+# Author : Enu Azubike Richard
+# Date created : 30/7/2022
+# Last modified : 30/7/2022
+
+# Description:
+# Prints this is my first script on the console
+
+# Usage :
+# Our first script
+
+
+echo "This is my first script"
+
+#Exit is a bash termination statement and can have values from 0 -255
+exit 0
