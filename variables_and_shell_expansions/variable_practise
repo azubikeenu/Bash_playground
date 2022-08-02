@@ -23,6 +23,7 @@ echo ${student:1:3} #ara
 echo ${student:0:3} #Sar
 echo ${student:1} #arah
 echo ${student: -2 : 2} #ah
+
 length=${#student}
 
 echo $length
@@ -38,6 +39,24 @@ echo ${student: -4} #arah
 time=$(date +%H:%M:%S)
 echo "the time right now is $time"
 
+################################
+# Arithmetic expansion
+################################
 
+echo $((length + 1))
+
+echo ${student:  0  : $((length - 1 ))} #Sara
+
+x=5 y=2
+
+echo $((x + y))
+
+echo $((x / y))  # returns an integer 2
+
+echo $((x * y))
+
+echo $((x ** y))
+
+echo $((x % y))
 
 exit 0
