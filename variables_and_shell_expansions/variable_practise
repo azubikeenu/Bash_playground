@@ -25,12 +25,18 @@ echo ${student:1} #arah
 echo ${student: -2 : 2} #ah
 length=${#student}
 
-echo ${length}
+echo $length
 
 echo ${student:0:4} #Sara
 
 echo ${student: -4} #arah
 
+
+################################
+# command substitution
+################################
+time=$(date +%H:%M:%S)
+echo "the time right now is $time"
 
 
 
